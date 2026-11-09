@@ -217,4 +217,3 @@
 @@||unimed.coop.br^$important
 @@||unimed.org.br^$important
 @@||unimedbh.io^$important
-@@||unimedbh-master.*^$important
