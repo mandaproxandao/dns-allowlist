@@ -2,6 +2,7 @@
 ! Description: Dominios de resolvers publicos 
 ! Version: 1.0
 ! Last modified: 2026-11-09
+! List based on Gemini and Claude AI tools
 !
 ! Formato AdGuard Home (DNS allowlist)
 ! "||dominio^" cobre o dominio e todos os subdominios
@@ -124,6 +125,75 @@
 @@||time.google.com^
 
 ! ==============================
-! Testes de resolucao (genericos)
+! Ferramentas de Teste de DNS, Resolução e Diagnóstico
 ! ==============================
 @@||dnscheck.tools^
+@@||dns-oarc.net^
+@@||cmdns.dev.dns-oarc.net^
+@@||dnsleaktest.com^
+@@||dnsleak.com^
+@@||ipleak.net^
+@@||browserleaks.com^
+@@||whoer.net^
+@@||grc.com^
+@@||whatsmydns.net^
+@@||dnschecker.org^
+@@||into-dns.com^
+@@||intodns.com^
+
+! ==============================
+! Testes de Conectividade & IPv6 (Chappell Family)
+! ==============================
+@@||chappell-family.com^
+@@||ipv6.chappell-family.com^
+
+! ==============================
+! Testes de Velocidade (Speedtest)
+! ==============================
+@@||speedtest.net^
+@@||ooklaserver.net^
+@@||cloudflare.com^
+@@||speed.cloudflare.com^
+@@||fast.com^
+
+! ==============================
+! Servicos Publicos & Governo (Gov.br)
+! ==============================
+@@||gov.br^
+@@||receita.fazenda.gov.br^
+@@||conectesus.saude.gov.br^
+
+! ==============================
+! Captcha & Seguranca Web
+! ==============================
+@@||recaptcha.net^
+@@||hcaptcha.com^
+@@||turnstile.cloudflare.com^
+
+! ==============================
+! Sistemas Operacionais & Atualizacoes
+! ==============================
+! --- Microsoft / Windows Update ---
+@@||microsoft.com^
+@@||windowsupdate.com^
+@@||msftconnecttest.com^
+@@||msftncsi.com^
+
+! --- Apple (iOS / macOS / App Store) ---
+@@||apple.com^
+@@||icloud.com^
+@@||mzstatic.com^
+@@||swscan.apple.com^
+
+! --- Android / Google Play ---
+@@||android.com^
+@@||gvt1.com^
+@@||ggpht.com^
+@@||googleapis.com^
+
+! ==============================
+! Notificacoes Push (Mobile & Desktop)
+! ==============================
+@@||push.apple.com^
+@@||fcm.googleapis.com^
+@@||gcm-http.googleapis.com^
