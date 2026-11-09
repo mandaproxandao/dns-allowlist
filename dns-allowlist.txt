@@ -26,6 +26,11 @@
 @@||dns.quad9.net^
 @@||dns10.quad9.net^
 @@||dns11.quad9.net^
+! partners brazil
+@@||edgeuno.com^
+@@||edgeuno.co^
+@@||edgeuno.net^
+@@||constellix.com^
 
 ! ==============================
 ! YouTube & Infraestrutura Google Video
