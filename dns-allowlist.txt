@@ -1,7 +1,7 @@
 ! Title: Allowlist DNS
-! Description: Dominios de resolvers publicos (Cloudflare, Quad9, Google DNS, NextDNS) usados para resolver e testar resolucao
+! Description: Dominios de resolvers publicos 
 ! Version: 1.0
-! Last modified: 2026-11-08
+! Last modified: 2026-11-09
 !
 ! Formato AdGuard Home (DNS allowlist)
 ! "||dominio^" cobre o dominio e todos os subdominios
@@ -9,36 +9,119 @@
 ! ==============================
 ! Cloudflare (1.1.1.1)
 ! ==============================
-! DoH/DoT: cloudflare-dns.com, mozilla/security/family/1dot1dot1dot1.cloudflare-dns.com
 @@||cloudflare-dns.com^
-! Nome reverso de 1.1.1.1 / 1.0.0.1 e pagina de teste (help.one.one.one.one)
 @@||one.one.one.one^
+@@||security.cloudflare-dns.com^
+@@||family.cloudflare-dns.com^
+@@||cloudflarestream.com^
+@@||videodelivery.net^
 
 ! ==============================
 ! Quad9 (9.9.9.9)
 ! ==============================
-! dns, dns9, dns10, dns11, dns12 e dns112 .quad9.net, on.quad9.net (teste), reverso de 9.9.9.9
 @@||quad9.net^
+@@||dns.quad9.net^
+@@||dns10.quad9.net^
+@@||dns11.quad9.net^
 
 ! ==============================
-! Google Public DNS (8.8.8.8)
+! YouTube & Infraestrutura Google Video
 ! ==============================
-! DoH/DoT, dns64.dns.google
-@@||dns.google^
-@@||dns.google.com^
-! Pagina alternativa do servico
-@@||8888.google^
-! Nome reverso de 8.8.8.8 e 8.8.4.4
-@@||google-public-dns-a.google.com^
-@@||google-public-dns-b.google.com^
-! Teste de qual resolver Google esta respondendo (dig TXT o-o.myaddr.l.google.com)
-@@||myaddr.l.google.com^
+@@||youtube.com^
+@@||youtu.be^
+@@||ytimg.com^
+@@||googlevideo.com^
+@@||yt3.ggpht.com^
+@@||youtube-nocookie.com^
+@@||youtube-ui.l.google.com^
+@@||yt-video-attribute.l.google.com^
+@@||yt3.googleusercontent.com^
+@@||*.ggpht.*^$important
+@@||gvt*.com^$important
 
 ! ==============================
-! NextDNS
+! Meta (WhatsApp, Instagram, Facebook & Infraestrutura CDN)
 ! ==============================
-! dns.nextdns.io, dns1/dns2, anycast.dns.nextdns.io, test.nextdns.io, ID-do-perfil.dns.nextdns.io
-@@||nextdns.io^
+! --- WhatsApp ---
+@@||whatsapp.com^
+@@||whatsapp.net^
+@@||web.whatsapp.com^
+@@||pps.whatsapp.net^
+
+! --- Instagram ---
+@@||instagram.com^
+@@||cdninstagram.com^
+@@||instagr.am^
+
+! --- Facebook / Meta Assets ---
+@@||facebook.com^
+@@||facebook.net^
+@@||fb.com^
+@@||fbcdn.net^
+@@||fbsbx.com^
+@@||m.me^
+@@||meta.com^
+
+! ==============================
+! Netflix (Streaming & CDN Infra)
+! ==============================
+@@||netflix.com^
+@@||netflix.net^
+@@||nflxext.com^
+@@||nflximg.net^
+@@||nflximg.com^
+@@||nflxvideo.net^
+@@||nflxso.net^
+
+! ==============================
+! Instituicoes Financeiras & Bancos
+! ==============================
+! --- Sicredi ---
+@@||sicredi.com.br^
+@@||sicredipromotora.com.br^
+@@||clicksicredi.com.br^
+
+! --- Unicred ---
+@@||unicred.com.br^
+@@||unicredpay.com.br^
+
+! --- Nubank ---
+@@||nubank.com.br^
+@@||nu.com.br^
+@@||nu.bank^
+@@||nubank.com^
+@@||nubank.com.br.cdn.cloudflare.net^
+
+! --- Banrisul ---
+@@||banrisul.com.br^
+@@||banrisulcartoes.com.br^
+@@||banrisulpay.com.br^
+@@||banrisulseguros.com.br^
+
+! ==============================
+! Servidores de Tempo (NTP / Time Sync)
+! ==============================
+! --- pool.ntp.org ---
+@@||pool.ntp.org^
+@@||br.pool.ntp.org^
+@@||south-america.pool.ntp.org^
+
+! --- NTP.br (NIC.br / Registro.br) ---
+@@||ntp.br^
+@@||a.st1.ntp.br^
+@@||b.st1.ntp.br^
+@@||c.st1.ntp.br^
+@@||d.st1.ntp.br^
+
+! --- Microsoft Windows Time ---
+@@||time.windows.com^
+@@||time.nist.gov^
+
+! --- Apple Time Sync ---
+@@||time.apple.com^
+
+! --- Google Public NTP ---
+@@||time.google.com^
 
 ! ==============================
 ! Testes de resolucao (genericos)
