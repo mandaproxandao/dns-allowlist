@@ -16,6 +16,7 @@
 @@||family.cloudflare-dns.com^
 @@||cloudflarestream.com^
 @@||videodelivery.net^
+@@||every1dns.net^
 
 ! ==============================
 ! Quad9 (9.9.9.9)
@@ -37,8 +38,11 @@
 @@||youtube-ui.l.google.com^
 @@||yt-video-attribute.l.google.com^
 @@||yt3.googleusercontent.com^
-@@||*.ggpht.*^$important
-@@||gvt*.com^$important
+@@||*.ggpht.*^
+@@||gvt*.com^
+@@||dns.google^
+@@||nel.goog^
+
 
 ! ==============================
 ! Meta (WhatsApp, Instagram, Facebook & Infraestrutura CDN)
@@ -81,6 +85,7 @@
 @@||sicredi.com.br^
 @@||sicredipromotora.com.br^
 @@||clicksicredi.com.br^
+@@||api.sicredi.io^
 
 ! --- Unicred ---
 @@||unicred.com.br^
