@@ -15,6 +15,7 @@
 @@||security.cloudflare-dns.com^
 @@||family.cloudflare-dns.com^
 @@||cloudflarestream.com^
+@@||cloudflareinsights.com^
 @@||videodelivery.net^
 @@||every1dns.net^
 
