@@ -10,201 +10,210 @@
 ! ==============================
 ! Cloudflare (1.1.1.1)
 ! ==============================
-@@||cloudflare-dns.com^
-@@||one.one.one.one^
-@@||security.cloudflare-dns.com^
-@@||family.cloudflare-dns.com^
-@@||cloudflarestream.com^
-@@||cloudflareinsights.com^
-@@||videodelivery.net^
-@@||every1dns.net^
+@@||cloudflare-dns.com^$important
+@@||one.one.one.one^$important
+@@||security.cloudflare-dns.com^$important
+@@||family.cloudflare-dns.com^$important
+@@||cloudflarestream.com^$important
+@@||cloudflareinsights.com^$important
+@@||videodelivery.net^$important
+@@||every1dns.net^$important
 
 ! ==============================
 ! Quad9 (9.9.9.9)
 ! ==============================
-@@||quad9.net^
-@@||dns.quad9.net^
-@@||dns10.quad9.net^
-@@||dns11.quad9.net^
+@@||quad9.net^$important
+@@||dns.quad9.net^$important
+@@||dns10.quad9.net^$important
+@@||dns11.quad9.net^$important
 ! partners brazil
-@@||edgeuno.com^
-@@||edgeuno.co^
-@@||edgeuno.net^
-@@||constellix.com^
+@@||edgeuno.com^$important
+@@||edgeuno.co^$important
+@@||edgeuno.net^$important
+@@||constellix.com^$important
 
 ! ==============================
 ! YouTube & Infraestrutura Google Video
 ! ==============================
-@@||youtube.com^
-@@||youtu.be^
-@@||ytimg.com^
-@@||googlevideo.com^
-@@||yt3.ggpht.com^
-@@||youtube-nocookie.com^
-@@||youtube-ui.l.google.com^
-@@||yt-video-attribute.l.google.com^
-@@||yt3.googleusercontent.com^
-@@||*.ggpht.*^
-@@||gvt*.com^
-@@||dns.google^
-@@||nel.goog^
+@@||youtube.com^$important
+@@||youtu.be^$important
+@@||ytimg.com^$important
+@@||googlevideo.com^$important
+@@||yt3.ggpht.com^$important
+@@||youtube-nocookie.com^$important
+@@||youtube-ui.l.google.com^$important
+@@||yt-video-attribute.l.google.com^$important
+@@||yt3.googleusercontent.com^$important
+@@||*.ggpht.*^$important
+@@||gvt*.com^$important
+@@||dns.google^$important
+@@||nel.goog^$important
 
 
 ! ==============================
 ! Meta (WhatsApp, Instagram, Facebook & Infraestrutura CDN)
 ! ==============================
 ! --- WhatsApp ---
-@@||whatsapp.com^
-@@||whatsapp.net^
-@@||web.whatsapp.com^
-@@||pps.whatsapp.net^
+@@||whatsapp.com^$important
+@@||whatsapp.net^$important
+@@||web.whatsapp.com^$important
+@@||pps.whatsapp.net^$important
 
 ! --- Instagram ---
-@@||instagram.com^
-@@||cdninstagram.com^
-@@||instagr.am^
+@@||instagram.com^$important
+@@||cdninstagram.com^$important
+@@||instagr.am^$important
 
 ! --- Facebook / Meta Assets ---
-@@||facebook.com^
-@@||facebook.net^
-@@||fb.com^
-@@||fbcdn.net^
-@@||fbsbx.com^
-@@||m.me^
-@@||meta.com^
+@@||facebook.com^$important
+@@||facebook.net^$important
+@@||fb.com^$important
+@@||fbcdn.net^$important
+@@||fbsbx.com^$important
+@@||m.me^$important
+@@||meta.com^$important
 
 ! ==============================
 ! Netflix (Streaming & CDN Infra)
 ! ==============================
-@@||netflix.com^
-@@||netflix.net^
-@@||nflxext.com^
-@@||nflximg.net^
-@@||nflximg.com^
-@@||nflxvideo.net^
-@@||nflxso.net^
+@@||netflix.com^$important
+@@||netflix.net^$important
+@@||nflxext.com^$important
+@@||nflximg.net^$important
+@@||nflximg.com^$important
+@@||nflxvideo.net^$important
+@@||nflxso.net^$important
 
 ! ==============================
 ! Instituicoes Financeiras & Bancos
 ! ==============================
 ! --- Sicredi ---
-@@||sicredi.com.br^
-@@||sicredipromotora.com.br^
-@@||clicksicredi.com.br^
-@@||api.sicredi.io^
+@@||sicredi.com.br^$important
+@@||sicredipromotora.com.br^$important
+@@||clicksicredi.com.br^$important
+@@||api.sicredi.io^$important
 
 ! --- Unicred ---
-@@||unicred.com.br^
-@@||unicredpay.com.br^
+@@||unicred.com.br^$important
+@@||unicredpay.com.br^$important
 
 ! --- Nubank ---
-@@||nubank.com.br^
-@@||nu.com.br^
-@@||nu.bank^
-@@||nubank.com^
-@@||nubank.com.br.cdn.cloudflare.net^
+@@||nubank.com.br^$important
+@@||nu.com.br^$important
+@@||nu.bank^$important
+@@||nubank.com^$important
+@@||nubank.com.br.cdn.cloudflare.net^$important
 
 ! --- Banrisul ---
-@@||banrisul.com.br^
-@@||banrisulcartoes.com.br^
-@@||banrisulpay.com.br^
-@@||banrisulseguros.com.br^
+@@||banrisul.com.br^$important
+@@||banrisulcartoes.com.br^$important
+@@||banrisulpay.com.br^$important
+@@||banrisulseguros.com.br^$important
 
 ! ==============================
 ! Servidores de Tempo (NTP / Time Sync)
 ! ==============================
 ! --- pool.ntp.org ---
-@@||pool.ntp.org^
-@@||br.pool.ntp.org^
-@@||south-america.pool.ntp.org^
+@@||pool.ntp.org^$important
+@@||br.pool.ntp.org^$important
+@@||south-america.pool.ntp.org^$important
 
 ! --- NTP.br (NIC.br / Registro.br) ---
-@@||ntp.br^
-@@||a.st1.ntp.br^
-@@||b.st1.ntp.br^
-@@||c.st1.ntp.br^
-@@||d.st1.ntp.br^
+@@||ntp.br^$important
+@@||a.st1.ntp.br^$important
+@@||b.st1.ntp.br^$important
+@@||c.st1.ntp.br^$important
+@@||d.st1.ntp.br^$important
 
 ! --- Microsoft Windows Time ---
-@@||time.windows.com^
-@@||time.nist.gov^
+@@||time.windows.com^$important
+@@||time.nist.gov^$important
 
 ! --- Apple Time Sync ---
-@@||time.apple.com^
+@@||time.apple.com^$important
 
 ! --- Google Public NTP ---
-@@||time.google.com^
+@@||time.google.com^$important
 
 ! ==============================
 ! Ferramentas de Teste de DNS, Resolução e Diagnóstico
 ! ==============================
-@@||dnscheck.tools^
-@@||dns-oarc.net^
-@@||cmdns.dev.dns-oarc.net^
-@@||dnsleaktest.com^
-@@||dnsleak.com^
-@@||ipleak.net^
-@@||browserleaks.com^
-@@||whoer.net^
-@@||grc.com^
-@@||whatsmydns.net^
-@@||dnschecker.org^
-@@||into-dns.com^
-@@||intodns.com^
+@@||dnscheck.tools^$important
+@@||dns-oarc.net^$important
+@@||cmdns.dev.dns-oarc.net^$important
+@@||dnsleaktest.com^$important
+@@||dnsleak.com^$important
+@@||ipleak.net^$important
+@@||browserleaks.com^$important
+@@||whoer.net^$important
+@@||grc.com^$important
+@@||whatsmydns.net^$important
+@@||dnschecker.org^$important
+@@||into-dns.com^$important
+@@||intodns.com^$important
 
 ! ==============================
 ! Testes de Conectividade & IPv6 (Chappell Family)
 ! ==============================
-@@||chappell-family.com^
-@@||ipv6.chappell-family.com^
+@@||chappell-family.com^$important
+@@||ipv6.chappell-family.com^$important
 
 ! ==============================
 ! Testes de Velocidade (Speedtest)
 ! ==============================
-@@||speedtest.net^
-@@||ooklaserver.net^
-@@||cloudflare.com^
-@@||speed.cloudflare.com^
-@@||fast.com^
+@@||speedtest.net^$important
+@@||ooklaserver.net^$important
+@@||cloudflare.com^$important
+@@||speed.cloudflare.com^$important
+@@||fast.com^$important
 
 ! ==============================
 ! Servicos Publicos & Governo (Gov.br)
 ! ==============================
-@@||gov.br^
-@@||receita.fazenda.gov.br^
-@@||conectesus.saude.gov.br^
+@@||gov.br^$important
+@@||receita.fazenda.gov.br^$important
+@@||conectesus.saude.gov.br^$important
 
 ! ==============================
 ! Captcha & Seguranca Web
 ! ==============================
-@@||recaptcha.net^
-@@||hcaptcha.com^
-@@||turnstile.cloudflare.com^
+@@||recaptcha.net^$important
+@@||hcaptcha.com^$important
+@@||turnstile.cloudflare.com^$important
 
 ! ==============================
 ! Sistemas Operacionais & Atualizacoes
 ! ==============================
 ! --- Microsoft / Windows Update ---
-@@||microsoft.com^
-@@||windowsupdate.com^
-@@||msftconnecttest.com^
-@@||msftncsi.com^
+@@||microsoft.com^$important
+@@||windowsupdate.com^$important
+@@||msftconnecttest.com^$important
+@@||msftncsi.com^$important
 
 ! --- Apple (iOS / macOS / App Store) ---
-@@||apple.com^
-@@||icloud.com^
-@@||mzstatic.com^
-@@||swscan.apple.com^
+@@||apple.com^$important
+@@||icloud.com^$important
+@@||mzstatic.com^$important
+@@||swscan.apple.com^$important
 
 ! --- Android / Google Play ---
-@@||android.com^
-@@||gvt1.com^
-@@||ggpht.com^
-@@||googleapis.com^
+@@||android.com^$important
+@@||gvt1.com^$important
+@@||ggpht.com^$important
+@@||googleapis.com^$important
 
 ! ==============================
 ! Notificacoes Push (Mobile & Desktop)
 ! ==============================
-@@||push.apple.com^
-@@||fcm.googleapis.com^
-@@||gcm-http.googleapis.com^
+@@||push.apple.com^$important
+@@||fcm.googleapis.com^$important
+@@||gcm-http.googleapis.com^$important
+
+
+! ==============================
+! Unimed (Planos de Saude & Portais Regionais)
+! ==============================
+@@||unimed.com.br^$important
+@@||unimed.coop.br^$important
+@@||unimed.org.br^$important
+@@||unimedbh.io^$important
