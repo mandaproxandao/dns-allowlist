@@ -203,3 +203,5 @@
 @@||gemini.google.com^$important
 @@||generativelanguage.googleapis.com^$important
 @@||bard.google.com^$important
+@@||gemini.gstatic.com^$important
+
