@@ -49,6 +49,7 @@
 @@||dns.google^$important
 @@||dns.google.com^$important
 @@||nel.goog^$important
+@@||connectivitycheck.gstatic.com^$important
 
 
 ! ==============================
@@ -107,9 +108,12 @@
 
 ! --- Banrisul ---
 @@||banrisul.com.br^$important
+@@||amdb.alice.licelus.com^$important
+@@||licelus.com^$important
 @@||banrisulcartoes.com.br^$important
 @@||banrisulpay.com.br^$important
 @@||banrisulseguros.com.br^$important
+
 
 ! ==============================
 ! Servidores de Tempo (NTP / Time Sync)
