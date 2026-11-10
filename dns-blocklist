@@ -61,4 +61,8 @@
 ||rtb-config.samsungads.com^
 ||rtb-config-canary.samsungads.com^
 ||tvp-ads-log-staging.samsungads.com^
+||tls.samsungqbe.com^
+||tlsupload.trafficmanager.net^
+||tlsuploadapius.azurewebsites.net^
+||eu-west-1.elb.amazonaws.com^
 
