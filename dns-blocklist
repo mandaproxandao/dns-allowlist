@@ -1,1 +1,53 @@
+! Title: Blocklist Personalizada - AdGuard Home
+! Last modified: 2026-11-10
+! Formato: AdGuard Home DNS Blocklist
+! "||dominio^" bloqueia o domínio exato e todos os seus subdomínios
+
+! ==============================
+! Telemetria, Analytics & Crash Reporting
+! ==============================
+||analytics^
+||bugsnag.com^
+||dynatrace.com^
+||sentry.io^
+||appsflyersdk.com^
+
+! ==============================
+! Anúncios & Rastreamento (Ads)
+! ==============================
+||googleadservices.com^
+||adservice.google.com^
+||doubleclick.net^
+||adtrafficquality.google^
+
+! ==============================
+! Infraestrutura ByteDance & Apps (TikTok, Hypic, CapCut)
+! ==============================
+||hypic.app^
+||byteoversea.com^
+
+! ==============================
+! Streaming & Infraestrutura (Disney/Bamgrid, Spotify)
+! ==============================
+||spotify.com^
+||bamgrid.com^
+
+! ==============================
+! Telefonia, Hardware & Redes Móveis
+! ==============================
+||3gppnetwork.org^
+||telephony.goog^
+||mediatek.com^
+
+! ==============================
+! Outros Domínios & Segurança
+! ==============================
+||dyupbydns.com^
+||appdome.com^
+||gopsahome.com^
+
+! ==============================
+! Samsung
+! ==============================
+||samsungnewsapi.picks.my^
 
