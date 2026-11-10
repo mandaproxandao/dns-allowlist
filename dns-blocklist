@@ -47,7 +47,29 @@
 ||gopsahome.com^
 
 ! ==============================
-! Samsung
+! Samsung - TV (ACR, anúncios, telemetria)
 ! ==============================
+! ACR (reconhecimento automático de conteúdo - monitora o que passa na tela)
+||samsungacr.com^
+||acr0.samsungcloudsolution.com^
+||acr-eu-prd.samsungcloud.tv^
+||acr-us-prd.samsungcloud.tv^
+||samsungcloudsolution.com^
+||samsungcloudsolution.net^
+
+! Samsung Ads (publicidade na home da TV e em apps)
+||samsungads.com^
+||samsungadhub.com^
+
+! ==============================
+! Samsung - Android (Galaxy)
+! ==============================
+! Telemetria/diagnóstico e otimização de jogos (GOS)
+||gos-gsp.io^
 ||samsungnewsapi.picks.my^
+||qoe.samsungcloud.tv^
+
+! ==============================
+! Samsung - Opcionais (descomente se quiser ir mais fundo)
+! ==============================
 
