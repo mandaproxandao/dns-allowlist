@@ -47,6 +47,7 @@
 @@||*.ggpht.*^$important
 @@||gvt*.com^$important
 @@||dns.google^$important
+@@||dns.google.com^$important
 @@||nel.goog^$important
 
 
