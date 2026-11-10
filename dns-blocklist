@@ -46,28 +46,4 @@
 ||appdome.com^
 ||gopsahome.com^
 
-! ==============================
-! Samsung TV - Bloqueio seguro
-! ==============================
-! ACR (monitora o que passa na tela)
-||samsungacr.com^
-||acr-br-prd.samsungcloud.tv^
-||acr-us-prd.samsungcloud.tv^
-||acr-eu-prd.samsungcloud.tv^
-||acr0.samsungcloudsolution.com^
-
-! Anúncios
-||samsungads.com^
-||adgrx.com^
-
-! Telemetria
-||qoe.samsungcloud.tv^
-
-! ==============================
-! Samsung TV - Para testar (um por vez)
-! ==============================
-||aibixby.com^
-||noticecdn.samsungcloudsolution.com^
-||oempprd.samsungcloudsolution.com^
-||lcprd1.samsungcloudsolution.net^
 
