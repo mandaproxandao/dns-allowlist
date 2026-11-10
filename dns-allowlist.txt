@@ -222,3 +222,15 @@
 @@||unimed.coop.br^$important
 @@||unimed.org.br^$important
 @@||unimedbh.io^$important
+@@||unimedbh.com.br^$important
+
+! ==============================
+! e-commerces
+! ==============================
+@@||olx.com.br^$important
+@@||mercadolivre.com.br^$important
+@@||mercadolibre.com^$important
+@@||mlstatic.com^$important
+@@||mercadolibre.com.ar^$important
+@@||mercadopago.com^$important
+@@||meli.com^$important
