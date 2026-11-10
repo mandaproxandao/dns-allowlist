@@ -178,3 +178,28 @@
 @@||mlstatic.com^$important
 @@||mercadopago.com^$important
 @@||meli.com^$important
+
+! ==============================
+! Assistentes de IA & LLMs (Gemini, ChatGPT, Claude, Copilot)
+! ==============================
+! --- OpenAI / ChatGPT ---
+@@||openai.com^$important
+@@||chatgpt.com^$important
+@@||oaistatic.com^$important
+@@||oaiusercontent.com^$important
+
+! --- Anthropic / Claude ---
+@@||anthropic.com^$important
+@@||claude.ai^$important
+@@||claude.usercontent.com^$important
+
+! --- Microsoft Copilot ---
+@@||copilot.microsoft.com^$important
+@@||bing.com^$important
+@@||edgeservices.bing.com^$important
+@@||sydney.bing.com^$important
+
+! --- Google Gemini ---
+@@||gemini.google.com^$important
+@@||generativelanguage.googleapis.com^$important
+@@||bard.google.com^$important
