@@ -1,31 +1,25 @@
-! Title: Allowlist DNS
-! Description: Dominios de resolvers publicos 
-! Version: 1.0
+! Title: Allowlist DNS (Otimizada)
+! Description: Domínios de resolvers públicos e serviços essenciais
+! Version: 1.1
 ! Last modified: 2026-11-09
-! List based on Gemini and Claude AI tools
-!
 ! Formato AdGuard Home (DNS allowlist)
-! "||dominio^" cobre o dominio e todos os subdominios
+! "||dominio^" cobre o domínio e todos os subdomínios
 
 ! ==============================
-! Cloudflare (1.1.1.1)
+! Cloudflare
 ! ==============================
+@@||cloudflare.com^$important
 @@||cloudflare-dns.com^$important
 @@||one.one.one.one^$important
-@@||security.cloudflare-dns.com^$important
-@@||family.cloudflare-dns.com^$important
 @@||cloudflarestream.com^$important
 @@||cloudflareinsights.com^$important
 @@||videodelivery.net^$important
 @@||every1dns.net^$important
 
 ! ==============================
-! Quad9 (9.9.9.9)
+! Quad9
 ! ==============================
 @@||quad9.net^$important
-@@||dns.quad9.net^$important
-@@||dns10.quad9.net^$important
-@@||dns11.quad9.net^$important
 ! partners brazil
 @@||edgeuno.com^$important
 @@||edgeuno.co^$important
@@ -39,34 +33,21 @@
 @@||youtu.be^$important
 @@||ytimg.com^$important
 @@||googlevideo.com^$important
-@@||yt3.ggpht.com^$important
+@@||ggpht.com^$important
 @@||youtube-nocookie.com^$important
-@@||youtube-ui.l.google.com^$important
-@@||yt-video-attribute.l.google.com^$important
-@@||yt3.googleusercontent.com^$important
-@@||*.ggpht.*^$important
-@@||gvt*.com^$important
+@@||gvt1.com^$important
 @@||dns.google^$important
-@@||dns.google.com^$important
 @@||nel.goog^$important
-@@||connectivitycheck.gstatic.com^$important
-
+@@||gstatic.com^$important
 
 ! ==============================
-! Meta (WhatsApp, Instagram, Facebook & Infraestrutura CDN)
+! Meta (WhatsApp, Instagram, Facebook)
 ! ==============================
-! --- WhatsApp ---
 @@||whatsapp.com^$important
 @@||whatsapp.net^$important
-@@||web.whatsapp.com^$important
-@@||pps.whatsapp.net^$important
-
-! --- Instagram ---
 @@||instagram.com^$important
 @@||cdninstagram.com^$important
 @@||instagr.am^$important
-
-! --- Facebook / Meta Assets ---
 @@||facebook.com^$important
 @@||facebook.net^$important
 @@||fb.com^$important
@@ -76,7 +57,7 @@
 @@||meta.com^$important
 
 ! ==============================
-! Netflix (Streaming & CDN Infra)
+! Netflix
 ! ==============================
 @@||netflix.com^$important
 @@||netflix.net^$important
@@ -87,13 +68,13 @@
 @@||nflxso.net^$important
 
 ! ==============================
-! Instituicoes Financeiras & Bancos
+! Instituições Financeiras & Bancos
 ! ==============================
 ! --- Sicredi ---
 @@||sicredi.com.br^$important
 @@||sicredipromotora.com.br^$important
 @@||clicksicredi.com.br^$important
-@@||api.sicredi.io^$important
+@@||sicredi.io^$important
 
 ! --- Unicred ---
 @@||unicred.com.br^$important
@@ -104,48 +85,29 @@
 @@||nu.com.br^$important
 @@||nu.bank^$important
 @@||nubank.com^$important
-@@||nubank.com.br.cdn.cloudflare.net^$important
 
 ! --- Banrisul ---
 @@||banrisul.com.br^$important
-@@||amdb.alice.licelus.com^$important
 @@||licelus.com^$important
 @@||banrisulcartoes.com.br^$important
 @@||banrisulpay.com.br^$important
 @@||banrisulseguros.com.br^$important
 
-
 ! ==============================
 ! Servidores de Tempo (NTP / Time Sync)
 ! ==============================
-! --- pool.ntp.org ---
 @@||pool.ntp.org^$important
-@@||br.pool.ntp.org^$important
-@@||south-america.pool.ntp.org^$important
-
-! --- NTP.br (NIC.br / Registro.br) ---
 @@||ntp.br^$important
-@@||a.st1.ntp.br^$important
-@@||b.st1.ntp.br^$important
-@@||c.st1.ntp.br^$important
-@@||d.st1.ntp.br^$important
-
-! --- Microsoft Windows Time ---
 @@||time.windows.com^$important
 @@||time.nist.gov^$important
-
-! --- Apple Time Sync ---
 @@||time.apple.com^$important
-
-! --- Google Public NTP ---
 @@||time.google.com^$important
 
 ! ==============================
-! Ferramentas de Teste de DNS, Resolução e Diagnóstico
+! Ferramentas de Teste & Diagnóstico
 ! ==============================
 @@||dnscheck.tools^$important
 @@||dns-oarc.net^$important
-@@||cmdns.dev.dns-oarc.net^$important
 @@||dnsleaktest.com^$important
 @@||dnsleak.com^$important
 @@||ipleak.net^$important
@@ -154,69 +116,52 @@
 @@||grc.com^$important
 @@||whatsmydns.net^$important
 @@||dnschecker.org^$important
-@@||into-dns.com^$important
 @@||intodns.com^$important
 
 ! ==============================
-! Testes de Conectividade & IPv6 (Chappell Family)
+! Testes de Conectividade & IPv6
 ! ==============================
 @@||chappell-family.com^$important
-@@||ipv6.chappell-family.com^$important
 
 ! ==============================
-! Testes de Velocidade (Speedtest)
+! Testes de Velocidade
 ! ==============================
 @@||speedtest.net^$important
 @@||ooklaserver.net^$important
-@@||cloudflare.com^$important
-@@||speed.cloudflare.com^$important
 @@||fast.com^$important
 
 ! ==============================
-! Servicos Publicos & Governo (Gov.br)
+! Serviços Públicos & Governo (Gov.br)
 ! ==============================
 @@||gov.br^$important
-@@||receita.fazenda.gov.br^$important
-@@||conectesus.saude.gov.br^$important
 
 ! ==============================
-! Captcha & Seguranca Web
+! Captcha & Segurança Web
 ! ==============================
 @@||recaptcha.net^$important
 @@||hcaptcha.com^$important
-@@||turnstile.cloudflare.com^$important
 
 ! ==============================
-! Sistemas Operacionais & Atualizacoes
+! Sistemas Operacionais & Atualizações
 ! ==============================
-! --- Microsoft / Windows Update ---
 @@||microsoft.com^$important
 @@||windowsupdate.com^$important
 @@||msftconnecttest.com^$important
 @@||msftncsi.com^$important
-
-! --- Apple (iOS / macOS / App Store) ---
 @@||apple.com^$important
 @@||icloud.com^$important
 @@||mzstatic.com^$important
-@@||swscan.apple.com^$important
-
-! --- Android / Google Play ---
 @@||android.com^$important
-@@||gvt1.com^$important
-@@||ggpht.com^$important
 @@||googleapis.com^$important
 
 ! ==============================
-! Notificacoes Push (Mobile & Desktop)
+! Notificações Push
 ! ==============================
-@@||push.apple.com^$important
-@@||fcm.googleapis.com^$important
-@@||gcm-http.googleapis.com^$important
-
+@@||apple-push.com^$important
+@@||googleapis.com^$important
 
 ! ==============================
-! Unimed (Planos de Saude & Portais Regionais)
+! Unimed
 ! ==============================
 @@||unimed.com.br^$important
 @@||unimed.coop.br^$important
@@ -225,12 +170,11 @@
 @@||unimedbh.com.br^$important
 
 ! ==============================
-! e-commerces
+! E-commerces
 ! ==============================
 @@||olx.com.br^$important
 @@||mercadolivre.com.br^$important
 @@||mercadolibre.com^$important
 @@||mlstatic.com^$important
-@@||mercadolibre.com.ar^$important
 @@||mercadopago.com^$important
 @@||meli.com^$important
