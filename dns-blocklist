@@ -28,6 +28,8 @@
 /log/
 /yandex/
 /disney/
+/samsung-com/
+/*metrics.samsung/
 
 ! ==============================
 ! domainlist
@@ -50,5 +52,14 @@
 ||ads.pinterest.com^
 ||turtlecute.org^
 ||adblock.turtlecute.org^
+||api.account.samsung.com^
+||account.samsung.com^
+||samsunghealthcn.com^
+||samsungads.com^
+
+
+
+
+
 
 
