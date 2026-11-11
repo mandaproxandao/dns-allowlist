@@ -6,46 +6,22 @@
 ! ==============================
 ! Telemetria, Analytics & Crash Reporting
 ! ==============================
-||analytics^$dnsrewrite=ad-block.dns.adguard.com
-||bugsnag.com^$dnsrewrite=ad-block.dns.adguard.com
-||dynatrace.com^$dnsrewrite=ad-block.dns.adguard.com
-||sentry.io^$dnsrewrite=ad-block.dns.adguard.com
-||appsflyersdk.com^$dnsrewrite=ad-block.dns.adguard.com
-
-
-! ==============================
-! Anúncios & Rastreamento (Ads)
-! ==============================
-||googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
-||www.googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
-||adservice.google.com^$dnsrewrite=ad-block.dns.adguard.com
-||doubleclick.net^$dnsrewrite=ad-block.dns.adguard.com
-||adtrafficquality.google^$dnsrewrite=ad-block.dns.adguard.com
-
-! ==============================
-! Infraestrutura ByteDance & Apps (TikTok, Hypic, CapCut)
-! ==============================
-||hypic.app^$dnsrewrite=ad-block.dns.adguard.com
-||byteoversea.com^$dnsrewrite=ad-block.dns.adguard.com
-
-! ==============================
-! Streaming & Infraestrutura (Disney/Bamgrid, Spotify)
-! ==============================
-||spotify.com^$dnsrewrite=ad-block.dns.adguard.com
-||bamgrid.com^$dnsrewrite=ad-block.dns.adguard.com
-
-! ==============================
-! Telefonia, Hardware & Redes Móveis
-! ==============================
-||3gppnetwork.org^$dnsrewrite=ad-block.dns.adguard.com
-||telephony.goog^$dnsrewrite=ad-block.dns.adguard.com
-||mediatek.com^$dnsrewrite=ad-block.dns.adguard.com
-
-! ==============================
-! Outros Domínios & Segurança
-! ==============================
-||dyupbydns.com^$dnsrewrite=ad-block.dns.adguard.com
-||appdome.com^$dnsrewrite=ad-block.dns.adguard.com
-||gopsahome.com^$dnsrewrite=ad-block.dns.adguard.com
-
+/3gppnetwork/
+/analytics/
+/spotify/
+/dyupbydns/
+/mediatek/
+/telephony\.goog/
+/bugsnag/
+/dynatrace/
+/appdome/
+/hypic/
+/sentry/
+/byteoversea/
+/googleadservices/
+/adservice/
+/doubleclick/
+/gopsahome/
+/bamgrid/
+/appsflyersdk/
 
