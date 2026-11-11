@@ -6,45 +6,45 @@
 ! ==============================
 ! Telemetria, Analytics & Crash Reporting
 ! ==============================
-||analytics^
-||bugsnag.com^
-||dynatrace.com^
-||sentry.io^
-||appsflyersdk.com^
+||analytics^$dnsrewrite=ad-block.dns.adguard.com
+||bugsnag.com^$dnsrewrite=ad-block.dns.adguard.com
+||dynatrace.com^$dnsrewrite=ad-block.dns.adguard.com
+||sentry.io^$dnsrewrite=ad-block.dns.adguard.com
+||appsflyersdk.com^$dnsrewrite=ad-block.dns.adguard.com
 
 ! ==============================
 ! Anúncios & Rastreamento (Ads)
 ! ==============================
-||googleadservices.com^
-||www.googleadservices.com^
-||adservice.google.com^
-||doubleclick.net^
-||adtrafficquality.google^
+||googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
+||www.googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
+||adservice.google.com^$dnsrewrite=ad-block.dns.adguard.com
+||doubleclick.net^$dnsrewrite=ad-block.dns.adguard.com
+||adtrafficquality.google^$dnsrewrite=ad-block.dns.adguard.com
 
 ! ==============================
 ! Infraestrutura ByteDance & Apps (TikTok, Hypic, CapCut)
 ! ==============================
-||hypic.app^
-||byteoversea.com^
+||hypic.app^$dnsrewrite=ad-block.dns.adguard.com
+||byteoversea.com^$dnsrewrite=ad-block.dns.adguard.com
 
 ! ==============================
 ! Streaming & Infraestrutura (Disney/Bamgrid, Spotify)
 ! ==============================
-||spotify.com^
-||bamgrid.com^
+||spotify.com^$dnsrewrite=ad-block.dns.adguard.com
+||bamgrid.com^$dnsrewrite=ad-block.dns.adguard.com
 
 ! ==============================
 ! Telefonia, Hardware & Redes Móveis
 ! ==============================
-||3gppnetwork.org^
-||telephony.goog^
-||mediatek.com^
+||3gppnetwork.org^$dnsrewrite=ad-block.dns.adguard.com
+||telephony.goog^$dnsrewrite=ad-block.dns.adguard.com
+||mediatek.com^$dnsrewrite=ad-block.dns.adguard.com
 
 ! ==============================
 ! Outros Domínios & Segurança
 ! ==============================
-||dyupbydns.com^
-||appdome.com^
-||gopsahome.com^
+||dyupbydns.com^$dnsrewrite=ad-block.dns.adguard.com
+||appdome.com^$dnsrewrite=ad-block.dns.adguard.com
+||gopsahome.com^$dnsrewrite=ad-block.dns.adguard.com
 
 
