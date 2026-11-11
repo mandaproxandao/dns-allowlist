@@ -35,10 +35,10 @@
 @@||googlevideo.com^$important
 @@||ggpht.com^$important
 @@||youtube-nocookie.com^$important
-@@||gvt1.com^$important
+@@||gvt1.com^
 @@||dns.google^$important
-@@||nel.goog^$important
-@@||gstatic.com^$important
+@@||nel.goog^
+@@||gstatic.com^
 
 ! ==============================
 ! Meta (WhatsApp, Instagram, Facebook)
@@ -145,15 +145,15 @@
 ! ==============================
 ! Sistemas Operacionais & Atualizações
 ! ==============================
-@@||microsoft.com^$important
-@@||windowsupdate.com^$important
-@@||msftconnecttest.com^$important
-@@||msftncsi.com^$important
-@@||apple.com^$important
-@@||icloud.com^$important
-@@||mzstatic.com^$important
-@@||android.com^$important
-@@||googleapis.com^$important
+@@||microsoft.com^
+@@||windowsupdate.com^
+@@||msftconnecttest.com^
+@@||msftncsi.com^
+@@||apple.com^
+@@||icloud.com^
+@@||mzstatic.com^
+@@||android.com^
+@@||googleapis.com^
 
 ! ==============================
 ! Notificações Push
@@ -197,9 +197,9 @@
 
 ! --- Microsoft Copilot ---
 @@||copilot.microsoft.com^$important
-@@||bing.com^$important
-@@||edgeservices.bing.com^$important
-@@||sydney.bing.com^$important
+@@||bing.com^
+@@||edgeservices.bing.com^
+@@||sydney.bing.com^
 
 ! --- Google Gemini ---
 @@||gemini.google.com^$important
