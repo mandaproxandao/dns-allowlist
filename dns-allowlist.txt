@@ -122,6 +122,7 @@
 ! Testes de Conectividade & IPv6
 ! ==============================
 @@||chappell-family.com^$important
+@@||chappell-family.co.uk^$important
 
 ! ==============================
 ! Testes de Velocidade
@@ -157,8 +158,8 @@
 ! ==============================
 ! Notificações Push
 ! ==============================
-@@||apple-push.com^$important
-@@||googleapis.com^$important
+@@||apple-push.com^$
+@@||googleapis.com^$
 
 ! ==============================
 ! Unimed
@@ -175,6 +176,7 @@
 @@||olx.com.br^$important
 @@||mercadolivre.com.br^$important
 @@||mercadolibre.com^$important
+@@||mercadolibre.ar^$important
 @@||mlstatic.com^$important
 @@||mercadopago.com^$important
 @@||meli.com^$important
