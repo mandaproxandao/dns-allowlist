@@ -207,3 +207,6 @@
 @@||bard.google.com^$important
 @@||gemini.gstatic.com^$important
 
+! ----GitHub
+@@||github.com^$important
+
