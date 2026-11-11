@@ -4,7 +4,7 @@
 ! "||dominio^" bloqueia o domínio exato e todos os seus subdomínios
 
 ! ==============================
-! Telemetria, Analytics & Crash Reporting
+! wordlist
 ! ==============================
 /3gppnetwork/
 /analytics/
@@ -24,4 +24,23 @@
 /gopsahome/
 /bamgrid/
 /appsflyersdk/
+/hotjar/
+/log/
+
+! ==============================
+! domainlist
+! ==============================
+||doubleclick.net^
+||tiktok.com^
+||googleadservices.com^
+||www.googleadservices.com^
+||smartadserver.com^
+||openx.net^
+||pubmatic.com^
+||panxo-sys.com^
+||adsrvr.org^
+||rubiconproject.com^
+||yellowblue.io^
+||smartadserver.com^
+||casalemedia.com^
 
