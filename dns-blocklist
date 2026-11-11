@@ -12,6 +12,7 @@
 ||sentry.io^$dnsrewrite=ad-block.dns.adguard.com
 ||appsflyersdk.com^$dnsrewrite=ad-block.dns.adguard.com
 
+
 ! ==============================
 ! Anúncios & Rastreamento (Ads)
 ! ==============================
