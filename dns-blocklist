@@ -26,6 +26,8 @@
 /appsflyersdk/
 /hotjar/
 /log/
+/yandex/
+/disney/
 
 ! ==============================
 ! domainlist
@@ -43,4 +45,10 @@
 ||yellowblue.io^
 ||smartadserver.com^
 ||casalemedia.com^
+||media.net^
+||static.media.net^
+||ads.pinterest.com^
+||turtlecute.org^
+||adblock.turtlecute.org^
+
 
