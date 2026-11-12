@@ -62,11 +62,12 @@
 ||samsungads.com^
 ||dns.google^
 ||dns.google.com^
+||ns*.google.com^
+||ns*.google^
 ||office.com^
 ||mobile.events.data.microsoft.com^
 ||events.data.microsoft.com^
 ||reddit.com^
-||ns*.google.com^
 ||adtrafficquality.google^
 
 
