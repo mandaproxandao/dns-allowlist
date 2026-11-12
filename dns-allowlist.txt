@@ -35,8 +35,7 @@
 @@||googlevideo.com^$important
 @@||ggpht.com^$important
 @@||youtube-nocookie.com^$important
-@@||gvt1.com^
-@@||dns.google^$important
+@@||gvt*.com^
 @@||nel.goog^
 @@||gstatic.com^
 
@@ -159,7 +158,6 @@
 ! Notificações Push
 ! ==============================
 @@||apple-push.com^$
-@@||googleapis.com^$
 
 ! ==============================
 ! Unimed
