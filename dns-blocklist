@@ -33,6 +33,7 @@
 /porn/
 /fuck/
 /xvid/
+/ads/
 
 ! ==============================
 ! domainlist
@@ -59,6 +60,8 @@
 ||account.samsung.com^
 ||samsunghealthcn.com^
 ||samsungads.com^
+||dns.google^
+||dns.google.com^
 
 
 
