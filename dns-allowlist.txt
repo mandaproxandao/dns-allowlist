@@ -205,6 +205,11 @@
 @@||bard.google.com^$important
 @@||gemini.gstatic.com^$important
 
+! Infraestrutura GAS Tecnologia / Topaz (Warsaw)
+@@||gastecnologia.com.br^$important
+@@||topazofd.com^$important
+@@||dieboldnixdorf.com^$important
+
 ! ----GitHub
 @@||github.com^$important
 
