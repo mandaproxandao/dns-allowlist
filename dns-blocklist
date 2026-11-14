@@ -34,6 +34,11 @@
 /fuck/
 /xvid/
 /ads/
+/doubleclick/
+/tiktok/
+/shein/
+/log-ingestion/
+/nrdp.logs/
 
 ! ==============================
 ! domainlist
@@ -54,8 +59,6 @@
 ||media.net^
 ||static.media.net^
 ||ads.pinterest.com^
-||turtlecute.org^
-||adblock.turtlecute.org^
 ||api.account.samsung.com^
 ||account.samsung.com^
 ||samsunghealthcn.com^
