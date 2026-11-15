@@ -18,7 +18,7 @@
 /hypic/
 /sentry/
 /byteoversea/
-/googleadservices/
+/adservices/
 /adservice/
 /doubleclick/
 /gopsahome/
@@ -46,8 +46,9 @@
 ! ==============================
 ||doubleclick.net^
 ||tiktok.com^
+||onetrust.io^
+||cellrebel.com^
 ||googleadservices.com^
-||www.googleadservices.com^
 ||smartadserver.com^
 ||openx.net^
 ||pubmatic.com^
