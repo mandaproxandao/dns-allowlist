@@ -8,13 +8,13 @@
 ! ==============================
 ! Cloudflare
 ! ==============================
-@@||cloudflare.com^$important
+@@||cloudflare.com^
 @@||cloudflare-dns.com^$important
 @@||one.one.one.one^$important
-@@||cloudflarestream.com^$important
-@@||cloudflareinsights.com^$important
-@@||videodelivery.net^$important
-@@||every1dns.net^$important
+@@||cloudflarestream.com^
+@@||cloudflareinsights.com^
+@@||videodelivery.net^
+@@||every1dns.net^
 
 ! ==============================
 ! Quad9
@@ -33,8 +33,8 @@
 @@||youtu.be^$important
 @@||ytimg.com^$important
 @@||googlevideo.com^$important
-@@||ggpht.com^$important
-@@||youtube-nocookie.com^$important
+@@||ggpht.com^
+@@||youtube-nocookie.com^
 @@||gvt*.com^
 @@||nel.goog^
 @@||gstatic.com^
@@ -42,36 +42,34 @@
 ! ==============================
 ! Meta (WhatsApp, Instagram, Facebook)
 ! ==============================
-@@||whatsapp.com^$important
-@@||whatsapp.net^$important
-@@||instagram.com^$important
-@@||cdninstagram.com^$important
-@@||instagr.am^$important
-@@||facebook.com^$important
-@@||facebook.net^$important
-@@||fb.com^$important
-@@||fbcdn.net^$important
-@@||fbsbx.com^$important
-@@||m.me^$important
-@@||meta.com^$important
+@@||whatsapp.com^
+@@||whatsapp.net^
+@@||instagram.com^
+@@||cdninstagram.com^
+@@||instagr.am^
+@@||facebook.com^
+@@||facebook.net^
+@@||fb.com^
+@@||fbcdn.net^
+@@||fbsbx.com^
+@@||meta.com^
 
 ! ==============================
 ! Netflix
 ! ==============================
-@@||netflix.com^$important
-@@||netflix.net^$important
-@@||nflxext.com^$important
-@@||nflximg.net^$important
-@@||nflximg.com^$important
-@@||nflxvideo.net^$important
-@@||nflxso.net^$important
+@@||netflix.com^
+@@||netflix.net^
+@@||nflxext.com^
+@@||nflximg.net^
+@@||nflximg.com^
+@@||nflxvideo.net^
+@@||nflxso.net^
 
 ! ==============================
 ! Instituições Financeiras & Bancos
 ! ==============================
 ! --- Sicredi ---
 @@||sicredi.com.br^$important
-@@||sicredipromotora.com.br^$important
 @@||clicksicredi.com.br^$important
 @@||sicredi.io^$important
 
@@ -107,15 +105,6 @@
 ! ==============================
 @@||dnscheck.tools^$important
 @@||dns-oarc.net^$important
-@@||dnsleaktest.com^$important
-@@||dnsleak.com^$important
-@@||ipleak.net^$important
-@@||browserleaks.com^$important
-@@||whoer.net^$important
-@@||grc.com^$important
-@@||whatsmydns.net^$important
-@@||dnschecker.org^$important
-@@||intodns.com^$important
 
 ! ==============================
 ! Testes de Conectividade & IPv6
@@ -133,13 +122,13 @@
 ! ==============================
 ! Serviços Públicos & Governo (Gov.br)
 ! ==============================
-@@||gov.br^$important
+@@||gov.br^
 
 ! ==============================
 ! Captcha & Segurança Web
 ! ==============================
-@@||recaptcha.net^$important
-@@||hcaptcha.com^$important
+@@||recaptcha.net^
+@@||hcaptcha.com^
 
 ! ==============================
 ! Sistemas Operacionais & Atualizações
@@ -171,45 +160,45 @@
 ! ==============================
 ! E-commerces
 ! ==============================
-@@||olx.com.br^$important
-@@||mercadolivre.com.br^$important
-@@||mercadolibre.com^$important
-@@||mercadolibre.ar^$important
-@@||mlstatic.com^$important
-@@||mercadopago.com^$important
-@@||meli.com^$important
+@@||olx.com.br^
+@@||mercadolivre.com.br^
+@@||mercadolibre.com^
+@@||mercadolibre.ar^
+@@||mlstatic.com^
+@@||mercadopago.com^
+@@||meli.com^
 
 ! ==============================
 ! Assistentes de IA & LLMs (Gemini, ChatGPT, Claude, Copilot)
 ! ==============================
 ! --- OpenAI / ChatGPT ---
-@@||openai.com^$important
-@@||chatgpt.com^$important
-@@||oaistatic.com^$important
-@@||oaiusercontent.com^$important
+@@||openai.com^
+@@||chatgpt.com^
+@@||oaistatic.com^
+@@||oaiusercontent.com^
 
 ! --- Anthropic / Claude ---
-@@||anthropic.com^$important
-@@||claude.ai^$important
-@@||claude.usercontent.com^$important
+@@||anthropic.com^
+@@||claude.ai^
+@@||claude.usercontent.com^
 
 ! --- Microsoft Copilot ---
-@@||copilot.microsoft.com^$important
+@@||copilot.microsoft.com^
 @@||bing.com^
 @@||edgeservices.bing.com^
 @@||sydney.bing.com^
 
 ! --- Google Gemini ---
-@@||gemini.google.com^$important
-@@||generativelanguage.googleapis.com^$important
-@@||bard.google.com^$important
-@@||gemini.gstatic.com^$important
+@@||gemini.google.com^
+@@||generativelanguage.googleapis.com^
+@@||bard.google.com^
+@@||gemini.gstatic.com^
 
 ! Infraestrutura GAS Tecnologia / Topaz (Warsaw)
-@@||gastecnologia.com.br^$important
-@@||topazofd.com^$important
-@@||dieboldnixdorf.com^$important
+@@||gastecnologia.com.br^
+@@||topazofd.com^
+@@||dieboldnixdorf.com^
 
 ! ----GitHub
-@@||github.com^$important
+@@||github.com^
 
