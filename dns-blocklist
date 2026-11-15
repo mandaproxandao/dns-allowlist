@@ -38,7 +38,8 @@
 /tiktok/
 /shein/
 /log-ingestion/
-/nrdp.logs/
+/taboola/
+/ivcbrasil/
 
 ! ==============================
 ! domainlist
@@ -62,6 +63,8 @@
 ||api.account.samsung.com^
 ||account.samsung.com^
 ||samsunghealthcn.com^
+||log-ingestion-sa.samsungacr.com^
+||nrdp.logs.netflix.com^
 ||samsungads.com^
 ||dns.google^
 ||dns.google.com^
@@ -72,6 +75,22 @@
 ||events.data.microsoft.com^
 ||reddit.com^
 ||adtrafficquality.google^
+||rdstation.com.br^
+||www.googleadservices.com^
+||googleadservices.com^
+||onesignal.com^
+||premiumads.com.br^
+||apuradata.com.br^
+||batch.com^
+||example.org^
+||example.net^
+||example.com^
+||csp-reporting.cloudflare.com^
+||amazon-adsystem.com^
+||navdmp.com^
+||cloudx.io^
+||inmobi.com^
+
 
 
 
