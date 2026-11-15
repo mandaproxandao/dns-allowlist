@@ -67,10 +67,6 @@
 ||log-ingestion-sa.samsungacr.com^
 ||nrdp.logs.netflix.com^
 ||samsungads.com^
-||dns.google^
-||dns.google.com^
-||ns*.google.com^
-||ns*.google^
 ||office.com^
 ||mobile.events.data.microsoft.com^
 ||events.data.microsoft.com^
@@ -90,6 +86,11 @@
 ||cloudx.io^
 ||1e100.net^
 
+!DNS Google
+!||dns.google^
+!||ns*.google^
+||dns.google.com^
+||ns*.google.com^
 
 
 
