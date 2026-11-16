@@ -68,8 +68,6 @@
 ||nrdp.logs.netflix.com^
 ||samsungads.com^
 ||office.com^
-||mobile.events.data.microsoft.com^
-||events.data.microsoft.com^
 ||reddit.com^
 ||adtrafficquality.google^
 ||rdstation.com.br^
@@ -77,9 +75,6 @@
 ||premiumads.com.br^
 ||apuradata.com.br^
 ||batch.com^
-||example.org^
-||example.net^
-||example.com^
 ||csp-reporting.cloudflare.com^
 ||amazon-adsystem.com^
 ||navdmp.com^
