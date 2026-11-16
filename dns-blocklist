@@ -32,6 +32,7 @@
 /xvid/
 /doubleclick/
 /tiktok/
+/tiktokpangle/
 /shein/
 /log-ingestion/
 /taboola/
@@ -40,10 +41,20 @@
 ! ==============================
 ! domainlist
 ! ==============================
+||reddit.com^
+||rdstation.com.br^
+||onesignal.com^
+||premiumads.com.br^
+||apuradata.com.br^
+||batch.com^
+||csp-reporting.cloudflare.com^
+||amazon-adsystem.com^
+||navdmp.com^
+||cloudx.io^
+||pangle.io^
+||braze.com^
 ||onetrust.io^
 ||cellrebel.com^
-||googleadservices.com^
-||*.googleadservices.com^
 ||smartadserver.com^
 ||openx.net^
 ||pubmatic.com^
@@ -55,25 +66,37 @@
 ||media.net^
 ||static.media.net^
 ||ads.pinterest.com^
+||nrdp.logs.netflix.com^
+||goadopt.io^
+||mouseflow.com^
+||ads.vungle.com^
+||uxcam.com^
+
+
+!!!samsung
+||samsungads.com^
 ||api.account.samsung.com^
 ||account.samsung.com^
 ||samsunghealthcn.com^
 ||log-ingestion-sa.samsungacr.com^
-||nrdp.logs.netflix.com^
-||samsungads.com^
-||reddit.com^
-||adtrafficquality.google^
-||rdstation.com.br^
-||onesignal.com^
-||premiumads.com.br^
-||apuradata.com.br^
-||batch.com^
-||csp-reporting.cloudflare.com^
-||amazon-adsystem.com^
-||navdmp.com^
-||cloudx.io^
+
+
+!!!tiktok
 ||tiktok.com^
 ||tiktok*.com
+||tiktokpangle.us^
+
+!!!google
+||googleadservices.com^
+||*.googleadservices.com^
+||adtrafficquality.google^
+||pagead2.googlesyndication.com^
+||*.googlesyndication.com^
+||app-measurement.com^
+||fundingchoicesmessages.google.com^
+||marketingcloudapis.com^
+
+
 
 
 
