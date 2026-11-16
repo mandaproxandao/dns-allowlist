@@ -18,9 +18,7 @@
 /hypic/
 /sentry/
 /byteoversea/
-/adservices/
 /adservice/
-/doubleclick/
 /gopsahome/
 /bamgrid/
 /appsflyersdk/
@@ -32,7 +30,6 @@
 /porn/
 /fuck/
 /xvid/
-/ads/
 /doubleclick/
 /tiktok/
 /shein/
@@ -43,8 +40,6 @@
 ! ==============================
 ! domainlist
 ! ==============================
-||doubleclick.net^
-||tiktok.com^
 ||onetrust.io^
 ||cellrebel.com^
 ||googleadservices.com^
@@ -77,17 +72,8 @@
 ||amazon-adsystem.com^
 ||navdmp.com^
 ||cloudx.io^
-||1e100.net^
-||amazon-adsystem.com^
 ||tiktok.com^
 ||tiktok*.com
-
-!DNS Google
-||dns.google^
-||ns*.google^
-||dns.google.com^
-||ns*.google.com^
-
 
 
 
