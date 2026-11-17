@@ -20,7 +20,6 @@
 /byteoversea/
 /bytedance/
 /adservice/
-/gopsahome/
 /bamgrid/
 /appsflyersdk/
 /hotjar/
@@ -98,6 +97,15 @@
 ||marketingcloudapis.com^
 ||google-analytics.com^
 
+!TVbox
+!/gopsahome/
+!/dyupbydns/
+!||backyourhome.info^
+!||dyupbydns.com^
+!||gopsahome.info^
+!||satutoforone.net^
+!||tvhome.info^
+!||upwitheaway.info^
 
 
 
