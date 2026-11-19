@@ -111,6 +111,14 @@
 ! ==============================
 @@||chappell-family.com^$important
 @@||chappell-family.co.uk^$important
+@@||null-addr.com^$important
+@@||null-addr.net^$important
+@@||null-addr.org^$important
+@@||registro.br^$important
+@@||lacnic.net^$important
+@@||arin.net^$important
+@@||iana.org^$important
+@@||addr.tools^$important
 
 ! ==============================
 ! Testes de Velocidade
