@@ -55,7 +55,7 @@
 ||braze.com^
 ||onetrust.io^
 ||cellrebel.com^
-||smartadserver.com^
+||smarter.com^
 ||openx.net^
 ||pubmatic.com^
 ||panxo-sys.com^
@@ -90,8 +90,6 @@
 ||tiktokpangle.us^
 
 !!!google
-||googleadservices.com^
-||*.googleadservices.com^
 ||adtrafficquality.google^
 ||pagead2.googlesyndication.com^
 ||*.googlesyndication.com^
@@ -114,6 +112,11 @@
 
 !Adobe
 ||swupmf.adobe.com^
+
+!redirects
+||googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
+||www.googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
+||*.googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
 
 
 
