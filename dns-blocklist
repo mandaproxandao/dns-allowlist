@@ -118,6 +118,15 @@
 ||www.googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
 ||*.googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
 
+!updates unwanted
+||update.cadsoft.de^
+||update.microsoft.com^
+||skype.com^
+||*.skype.com^
+||windowsupdate.com^
+||*.windowsupdate.com^
+
+
 
 
 
