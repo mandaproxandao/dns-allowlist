@@ -141,20 +141,9 @@
 ! ==============================
 ! Sistemas Operacionais & Atualizações
 ! ==============================
-@@||microsoft.com^
-@@||windowsupdate.com^
 @@||msftconnecttest.com^
 @@||msftncsi.com^
-@@||apple.com^
-@@||icloud.com^
-@@||mzstatic.com^
-@@||android.com^
 @@||googleapis.com^
-
-! ==============================
-! Notificações Push
-! ==============================
-@@||apple-push.com^$
 
 ! ==============================
 ! Unimed
