@@ -122,9 +122,9 @@
 ||swupmf.adobe.com^
 
 !redirects
-||googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
-||www.googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
-||*.googleadservices.com^$dnsrewrite=ad-block.dns.adguard.com
+||googleadservices.com^$dnsrewrite=google.com
+||www.googleadservices.com^$dnsrewrite=google.com
+||*.googleadservices.com^$dnsrewrite=google.com
 
 !updates unwanted
 ||update.cadsoft.de^
