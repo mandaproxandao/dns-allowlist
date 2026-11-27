@@ -37,7 +37,7 @@
 /taboola/
 /ivcbrasil/
 /html-load/
-/bamgrid.com/
+/googleads/
 
 ! ==============================
 ! domainlist
@@ -82,6 +82,8 @@
 ||api.rb.sbixby.com^
 ||googleads.g.doubleclick.net^
 ||bag.itunes.apple.com^
+||licdn.com^
+||go-mpulse.net^
 
 
 !!!samsung
@@ -90,6 +92,7 @@
 ||account.samsung.com^
 ||samsunghealthcn.com^
 ||log-ingestion-sa.samsungacr.com^
+||api.samsungcloud.com^
 
 
 !!!tiktok
