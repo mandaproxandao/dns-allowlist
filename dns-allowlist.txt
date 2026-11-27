@@ -33,11 +33,16 @@
 @@||youtu.be^$important
 @@||ytimg.com^$important
 @@||googlevideo.com^$important
-@@||ggpht.com^
-@@||youtube-nocookie.com^
-@@||gvt*.com^
-@@||nel.goog^
-@@||gstatic.com^
+@@||ggpht.com^$important
+@@||youtube-nocookie.com^$important
+@@||gvt*.com^$important
+@@||nel.goog^$important
+@@||gstatic.com^$important
+@@||lh3.googleusercontent.com^$important
+@@||android.clients.google.com^$important
+@@||clients*.google.com^$important
+@@||yt3.ggpht.com^$important
+@@||i.ytimg.com^$important
 
 ! ==============================
 ! Meta (WhatsApp, Instagram, Facebook)
