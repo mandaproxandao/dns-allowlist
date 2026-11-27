@@ -1,119 +1,184 @@
 ! Title: Blocklist Personalizada - AdGuard Home
-! Last modified: 2026-11-10
+! Last modified: 2026-11-27
 ! Formato: AdGuard Home DNS Blocklist
 ! "||dominio^" bloqueia o domínio exato e todos os seus subdomínios
+! Linhas entre /barras/ são regex (palavra-chave no domínio)
 
-! ==============================
-! wordlist
-! ==============================
-/3gppnetwork/
-/analytics/
-/spotify/
-/mediatek/
-/telephony\.goog/
-/bugsnag/
-/dynatrace/
-/appdome/
-/hypic/
-/sentry/
-/byteoversea/
-/bytedance/
-/adservice/
-/bamgrid/
-/appsflyersdk/
-/hotjar/
-/logs/
-/yandex/
-/disney/
-/samsung-com/
+
+! ##############################################
+! 1. CONTEÚDO ADULTO
+! ##############################################
 /porn/
 /fuck/
 /xvid/
+
+
+! ##############################################
+! 2. ANÚNCIOS (ad networks, SSPs, DSPs)
+! ##############################################
+! --- regex ---
+/adservice/
 /doubleclick/
-/tiktok/
-/tiktokpangle/
-/shein/
-/log-ingestion/
+/googleads/
 /taboola/
 /ivcbrasil/
 /html-load/
-/googleads/
 
-! ==============================
-! domainlist
-! ==============================
-||reddit.com^
-||rdstation.com.br^
-||onesignal.com^
-||premiumads.com.br^
-||apuradata.com.br^
-||batch.com^
-||csp-reporting.cloudflare.com^
+! --- domínios ---
 ||amazon-adsystem.com^
-||navdmp.com^
-||cloudx.io^
-||pangle.io^
-||braze.com^
-||onetrust.io^
-||cellrebel.com^
-||smarter.com^
 ||openx.net^
 ||pubmatic.com^
-||panxo-sys.com^
 ||adsrvr.org^
 ||rubiconproject.com^
-||yellowblue.io^
 ||casalemedia.com^
 ||media.net^
 ||static.media.net^
 ||ads.pinterest.com^
-||nrdp.logs.netflix.com^
-||goadopt.io^
-||mouseflow.com^
 ||ads.vungle.com^
-||uxcam.com^
-||bamgrid.com^
-||bag.itunes.apple.com^
-||watson.events.data.microsoft.com^
-||reverselookup.quicksetcloud.com^
-||bag.itunes.apple.com^
-||config-cd-dmgz.bamgrid.com^
-||ueiwsp.com^
-||api.rb.sbixby.com^
-||googleads.g.doubleclick.net^
-||bag.itunes.apple.com^
-||licdn.com^
-||go-mpulse.net^
+||cloudx.io^
+||sdk.cloudx.io^
+||pangle.io^
+||yellowblue.io^
+||panxo-sys.com^
 ||hb.crackle.co.in^
+||premiumads.com.br^
+||smarter.com^
+||navdmp.com^
+||googleads.g.doubleclick.net^
+||telemetry.sdk.inmobi.com^
 ||cds.swishapps.ai^
 ||eidos.swishapps.ai^
-||sdk.cloudx.io^
+||events.swishapps.ai^
 
 
-!!!samsung
+! ##############################################
+! 3. ANALYTICS, RASTREAMENTO E TELEMETRIA
+! ##############################################
+! --- regex ---
+/analytics/
+/appsflyersdk/
+/hotjar/
+/logs/
+/log-ingestion/
+
+! --- domínios ---
+||apuradata.com.br^
+||mouseflow.com^
+||uxcam.com^
+||go-mpulse.net^
+||cellrebel.com^
+||csp-reporting.cloudflare.com^
+||ueiwsp.com^
+||reverselookup.quicksetcloud.com^
+
+
+! ##############################################
+! 4. MONITORAMENTO DE ERROS / SDKs DE APPS
+! ##############################################
+/bugsnag/
+/dynatrace/
+/appdome/
+/sentry/
+
+
+! ##############################################
+! 5. MARKETING, ENGAJAMENTO E NOTIFICAÇÕES PUSH
+! ##############################################
+||rdstation.com.br^
+||onesignal.com^
+||batch.com^
+||braze.com^
+||marketingcloudapis.com^
+
+
+! ##############################################
+! 6. CONSENTIMENTO / CMP (banners de cookies)
+! ##############################################
+||onetrust.io^
+||goadopt.io^
+
+
+! ##############################################
+! 7. TIKTOK / BYTEDANCE
+! ##############################################
+! --- regex ---
+/byteoversea/
+/bytedance/
+/tiktok/
+/tiktokpangle/
+/hypic/
+
+! --- domínios ---
+||tiktok.com^
+||tiktok*.com
+||tiktokpangle.us^
+
+
+! ##############################################
+! 8. GOOGLE
+! ##############################################
+||adtrafficquality.google^
+||pagead2.googlesyndication.com^
+||*.googlesyndication.com^
+||app-measurement.com^
+||fundingchoicesmessages.google.com^
+||google-analytics.com^
+/telephony\.goog/
+
+
+! ##############################################
+! 9. SAMSUNG
+! ##############################################
+/samsung-com/
 ||samsungads.com^
 ||api.account.samsung.com^
 ||account.samsung.com^
 ||samsunghealthcn.com^
 ||log-ingestion-sa.samsungacr.com^
 ||api.samsungcloud.com^
+||api.rb.sbixby.com^
 
 
-!!!tiktok
-||tiktok.com^
-||tiktok*.com
-||tiktokpangle.us^
+! ##############################################
+! 10. STREAMING (Netflix, Disney, Spotify)
+! ##############################################
+/spotify/
+/disney/
+/bamgrid/
+||bamgrid.com^
+||config-cd-dmgz.bamgrid.com^
+||nrdp.logs.netflix.com^
 
-!!!google
-||adtrafficquality.google^
-||pagead2.googlesyndication.com^
-||*.googlesyndication.com^
-||app-measurement.com^
-||fundingchoicesmessages.google.com^
-||marketingcloudapis.com^
-||google-analytics.com^
 
-!TVbox
+! ##############################################
+! 11. APPLE E MICROSOFT (telemetria)
+! ##############################################
+||bag.itunes.apple.com^
+||watson.events.data.microsoft.com^
+
+
+! ##############################################
+! 12. REDES SOCIAIS E SITES
+! ##############################################
+||reddit.com^
+||licdn.com^
+
+
+! ##############################################
+! 13. OUTROS / PALAVRAS-CHAVE DIVERSAS
+! ##############################################
+! --- telecom / hardware ---
+/3gppnetwork/
+/mediatek/
+
+! --- e-commerce / buscadores ---
+/shein/
+/yandex/
+
+
+! ##############################################
+! 14. TV BOX (malware / botnets / DNS dinâmico)
+! ##############################################
 /gopsahome/
 /dyupbydns/
 ||backyourhome.info^
@@ -125,25 +190,33 @@
 ||miuiboxforum.com.br^
 ||mitiendanube.com^
 
-!Adobe
-||swupmf.adobe.com^
 
-!redirects
+! ##############################################
+! 15. ADOBE
+! ##############################################
+||swupmf.adobe.com^
+||bridgeservices.adobe.com^
+||server.messaging.adobe.com^
+||client.messaging.adobe.com^
+||bfp.adobe.com^
+||prod.adobeccstatic.com^
+||commerce.adobe.com^
+
+
+! ##############################################
+! 16. REDIRECTS (dnsrewrite)
+! ##############################################
 ||googleadservices.com^$dnsrewrite=google.com
 ||www.googleadservices.com^$dnsrewrite=google.com
 ||*.googleadservices.com^$dnsrewrite=google.com
 
-!updates unwanted
+
+! ##############################################
+! 17. ATUALIZAÇÕES INDESEJADAS
+! ##############################################
 ||update.cadsoft.de^
 ||update.microsoft.com^
 ||skype.com^
 ||*.skype.com^
 ||windowsupdate.com^
 ||*.windowsupdate.com^
-
-
-
-
-
-
-
